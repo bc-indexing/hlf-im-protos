@@ -134,17 +134,17 @@ message GetHistoryForKey {
     string key = 1;
 }
 
-message GetHistoryForKeys {
+message GetHistoryForKeyRange {
     repeated string keys = 1;
 }
 
-message GetVersionsForKey {
+message GetHistoryForVersionRange {
     string key = 1;
     uint64 start = 2;
     uint64 end = 3;
 }
 
-message GetUpdatesByBlockRange {
+message GetHistoryForBlockRange {
     uint64 start = 1;
     uint64 end = 2;
     uint64 updates = 3;
