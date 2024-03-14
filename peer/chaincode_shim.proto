@@ -37,9 +37,9 @@ message ChaincodeMessage {
         GET_STATE_METADATA = 20;
         PUT_STATE_METADATA = 21;
         GET_PRIVATE_DATA_HASH = 22;
-        GET_HISTORY_FOR_KEYS = 23;
-        GET_VERSIONS_FOR_KEY = 24;
-        GET_UPDATES_BY_BLOCK_RANGE = 25;
+        GET_HISTORY_FOR_KEY_RANGE = 23;
+        GET_HISTORY_FOR_VERSION_RANGE = 24;
+        GET_HISTORY_FOR_BLOCK_RANGE = 25;
     }
 
     Type type = 1;
