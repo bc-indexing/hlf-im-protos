@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric-protos-go
+module github.com/bc-indexing/hlf-im-protos
 
 go 1.17
 
